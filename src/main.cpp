@@ -63,6 +63,8 @@ int main(){
 		}
 
 		cout << "Guess a letter, you have " << tries << " left." << endl;
+		
+		getchar();
 
 		if (word == unknown)
 		{
